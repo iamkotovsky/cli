@@ -1,0 +1,10 @@
+.agents/
+.codex/
+
+cli
+cli.c
+*.o
+*.out
+*.exe
+
+build/

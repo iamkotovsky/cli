@@ -1,0 +1,3 @@
+[submodule "strview"]
+	path = strview
+	url = https://github.com/iamkotovsky/strview.git
