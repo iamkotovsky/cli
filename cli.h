@@ -12,7 +12,7 @@
 #ifndef CLI_H
 #define CLI_H
 
-#include "strview.h"
+#include "strview/strview.h"
 
 #include <errno.h>
 #include <limits.h>
