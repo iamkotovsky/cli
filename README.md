@@ -47,7 +47,7 @@ In one translation unit:
     OPTIONAL(INT, repeat, "repeat", 'r', 1, "Repeat count")                   \
     OPTIONAL(BOOL, verbose, "verbose", 'v', false, "Enable verbose output")
 
-#include "cli.h"
+#include "cli/cli.h"
 ```
 
 Then parse:
@@ -115,7 +115,7 @@ literal `--`.
 ```c
 #define CLI_CUSTOM_ARGS
 #define CLI_ARGS(REQUIRED, OPTIONAL) /* ... */
-#include "cli.h"
+#include "cli/cli.h"
 ```
 
 Then `cli_t` also contains:
